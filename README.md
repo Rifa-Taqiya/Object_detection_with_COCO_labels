@@ -10,7 +10,7 @@ This repository contains a deep learning model for object detection applied to t
 *Bounding Box Prediction: Predicts both class labels and bounding box coordinates for each detected object.
 *Training on Custom Data: Compatible with custom traffic datasets in image and label file formats.
 
-**Requirements**
+**/Requirements/**
 Before running the code, ensure that you have the following libraries installed:
 
 Python 3.7+
@@ -20,25 +20,25 @@ Numpy
 Pandas
 Matplotlib
 
-**Dataset**
+**/Dataset/**
 The dataset should consist of:
 
 Images: Located in the images/ folder, with subdirectories for train, val, and test data.
 Labels: Located in the labels/ folder, with corresponding label files for the images. Each label file should be a text file containing class labels and bounding box coordinates in YOLO format.
 
-**Model Architecture**
+**/Model Architecture/**
 The model is a simple CNN-based architecture with two main outputs:
 
 Class Output: Classifies objects in the image.
 Bounding Box Output: Predicts the coordinates of the bounding box for the detected objects.
 
-**Model Outputs**
+**/Model Outputs/**
 After training, the model will output two things:
 
 Class Prediction: A probability distribution over all object classes for each bounding box.
 Bounding Box Coordinates: Predicted coordinates for the bounding boxes, which are normalized between 0 and 1 with respect to the image size.
 
-**Acknowledgements**
+**/Acknowledgements/**
 TensorFlow: For the powerful deep learning framework.
 OpenCV: For image manipulation.
 Keras: For easy-to-use neural network layers and model management.
