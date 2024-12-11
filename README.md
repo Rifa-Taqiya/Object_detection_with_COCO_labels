@@ -3,7 +3,7 @@ TensorFlow-based object detection model for traffic datasets with custom data pr
 
 This repository contains a deep learning model for object detection applied to traffic-related datasets. The model is built using TensorFlow and Keras, and it processes images and label data to detect objects such as vehicles, pedestrians, traffic signs, and more. The data is preprocessed to match the model's input requirements, and the network architecture consists of Convolutional Neural Networks (CNNs) with bounding box prediction.
 
-**Features**/
+/**Features**/
 *Custom Object Detection: Built for traffic-related datasets with object detection tasks.
 *TensorFlow & Keras Integration: Utilizes TensorFlow for model training and Keras for ease of implementation.
 *Data Preprocessing Pipeline: Loads images and corresponding label files in YOLO format and preprocesses them.
